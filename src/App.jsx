@@ -1,4 +1,5 @@
 import './App.css'
+import Balance from './component/Balance'
 import Header from './component/Header'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <Header/>
+      <Balance/>
     </>
   )
 }
