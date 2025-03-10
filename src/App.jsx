@@ -1,6 +1,7 @@
 import './App.css'
 import Balance from './component/Balance'
 import Header from './component/Header'
+import IncomeExpenses from './component/IncomeExpenses'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header/>
       <Balance/>
+      <IncomeExpenses/>
     </>
   )
 }
